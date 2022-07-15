@@ -4,7 +4,7 @@ import { AgGridReact } from 'ag-grid-react';
 import 'ag-grid-enterprise';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
-import './index.css';
+import './test-grid-custom-theme.css';
 
 const App = () => {
   const containerStyle = useMemo(() => ({ width: '100%', height: '100%' }), [])
