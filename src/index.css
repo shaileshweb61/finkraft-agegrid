@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.ag-theme-alpine {
+  --ag-control-panel-background-color: rgb(228, 197, 203);
+  --ag-side-button-selected-background-color: rgb(228, 197, 203);
+
+  --ag-selected-tab-underline-color: deeppink;
+  --ag-selected-tab-underline-width: 2px;
+  --ag-selected-tab-underline-transition-speed: 0.5s;
+
+  --ag-side-bar-panel-width: 300px; 
+  --ag-borders-input: dotted 2px;
+  --ag-input-border-color: orange;
+}
+.ag-theme-alpine .ag-text-field-input {
+  background-color: rgb(255, 209, 123); /* light orange */
+}
+.ag-theme-alpine .ag-text-field-input::placeholder {
+  color: rgb(155, 101, 1); /* darker orange */
+}
+.ag-theme-alpine .ag-filter-toolpanel-group-title-bar {
+  /* use a semi-transparent background to show the background colour behind */
+  background-color: rgb(255, 255, 255, 0.2);
+}
+/* .ag-theme-alpine .ag-header {
+  font-family: popins;
+} */
+.ag-theme-alpine .ag-column-drop-cell {
+  background-color: white;
+}
+.ag-theme-alpine .ag-column-drop-cell .ag-icon {
+  color: rgb(0, 0, 0);
+}
+.ag-theme-alpine .ag-column-drop-cell-text {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+
+.ag-theme-alpine .ag-header-group-cell {
+  font-weight: normal;
+  font-size: 22px;
+}
